@@ -189,7 +189,7 @@ export function FieldDataInputForm() {
                     value={formData.kecamatan}
                     onValueChange={handleSubDistrictChange}
                   >
-                    <SelectTrigger id="kecamatan">
+                    <SelectTrigger id="kecamatan" className="w-full">
                       <SelectValue placeholder="Pilih Kecamatan" />
                     </SelectTrigger>
                     <SelectContent>
@@ -211,7 +211,7 @@ export function FieldDataInputForm() {
                     onValueChange={(value) => handleInputChange("desa", value)}
                     disabled={!formData.kecamatan}
                   >
-                    <SelectTrigger id="desa">
+                    <SelectTrigger id="desa" className="w-full">
                       <SelectValue placeholder="Pilih Desa" />
                     </SelectTrigger>
                     <SelectContent>
@@ -257,7 +257,7 @@ export function FieldDataInputForm() {
                       handleInputChange("komoditas", value)
                     }
                   >
-                    <SelectTrigger id="komoditas">
+                    <SelectTrigger id="komoditas" className="w-full">
                       <SelectValue placeholder="Pilih Komoditas" />
                     </SelectTrigger>
                     <SelectContent>

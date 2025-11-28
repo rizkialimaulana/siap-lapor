@@ -202,7 +202,7 @@ export function ValidationModule() {
             <div className="space-y-2">
               <Label>Petugas</Label>
               <Select value={filterOfficer} onValueChange={setFilterOfficer}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
@@ -219,7 +219,7 @@ export function ValidationModule() {
             <div className="space-y-2">
               <Label>Status</Label>
               <Select value={filterStatus} onValueChange={setFilterStatus}>
-                <SelectTrigger>
+                <SelectTrigger className="w-full">
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
